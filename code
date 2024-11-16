@@ -1,0 +1,33 @@
+"
+Welcome to Boxyl!
+This program calculates 10! iteratively.
+
+"
+out
+set n 10
+set x 1
+loc start
+ray n x
+mul
+set x
+set z -1
+ray n z
+sum
+set n
+set z 0
+ray n z
+eql
+not
+hop start
+del
+"
+10 factorial = 
+"
+out
+out x
+del
+"
+
+
+"
+out
